@@ -25,9 +25,8 @@ const ProjectData = [
         description: "projects 3 description",
         image: "/images/projects/3.png",
         tag: ["All", "Web", "Responsive"],
-        gitUrl: "",
+        gitUrl: "https://github.com/fabriziocl/nextJs-portfolio",
         previewUrl: ""
-
     }
 ]
 
