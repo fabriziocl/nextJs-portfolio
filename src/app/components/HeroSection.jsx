@@ -5,10 +5,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HeroSection = () => {
     return (
-        <section>
+        <section className="lg:py-16">
             <div className='grid grid-cols-1 sm:grid-cols-12'>
-                <div className='col-span-7 place-self-center text-center sm:text-left'>
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                <div className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
+                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl font-extrabold">
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400'>
                             Hello, I&apos;m{" "}
                         </span>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                         </span>
                     </button>
                 </div>
-                <div className='col-span-5 place-self-center mt-4 mb-6 lg:mt-0'>
+                <div className='col-span-4 place-self-center mt-4 mb-6 lg:mt-0'>
                     <div className='rounded-full bg-[#181818] w-[430px] h-[430px] lg:w-[430px] lg:h-[430px] relative '>
                         <Image
                             src='/images/me.png'
