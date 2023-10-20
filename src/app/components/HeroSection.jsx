@@ -10,7 +10,7 @@ const HeroSection = () => {
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-400'>
-                            {`Hello, I'm`}{" "}
+                            Hello, I&apos;m{" "}
                         </span>
                         <br/>
                         <TypeAnimation
@@ -42,7 +42,7 @@ const HeroSection = () => {
                     </button>
                 </div>
                 <div className='col-span-5 place-self-center mt-4 mb-6 lg:mt-0'>
-                    <div className='rounded-full bg-[#181818] w-[430px] h-[430px] lg:w-[430px] lg:h-[430px] relative'>
+                    <div className='rounded-full bg-[#181818] w-[430px] h-[430px] lg:w-[430px] lg:h-[430px] relative '>
                         <Image
                             src='/images/me.png'
                             alt="hero image"
