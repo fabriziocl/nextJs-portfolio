@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
+import Link from 'next/link';
 
 const HeroSection = () => {
     return (
@@ -12,11 +13,11 @@ const HeroSection = () => {
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-400'>
                             Hello, I&apos;m{" "}
                         </span>
-                        <br/>
+                        <br />
                         <TypeAnimation
                             sequence={[
                                 'Fabrizio',
-                                1000, 
+                                1000,
                                 'Fullstack developer',
                                 1000,
                                 'Mobile developer',
@@ -32,9 +33,11 @@ const HeroSection = () => {
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6 mt-4'>
                         Problem solver, based in Buenos Aires. Ready to step up for any challenges.
                     </p>
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-600 hover:bg-slate-200 text-white">
+                    <Link
+                        href="#contact"
+                        className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-600 hover:bg-slate-200 text-white">
                         Hire me
-                    </button>
+                    </Link>
                     <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-[#ff7096] hover:bg-slate-800 text-white mt-3">
                         <div className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                             <a href="/FCL-resume.pdf" download="FCL-resume.pdf">
